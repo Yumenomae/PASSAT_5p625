@@ -60,6 +60,9 @@ The following table describes the comparisons between PASSAT and the other model
 | | 120 | **4.01** | *4.10* | NAN | 4.13 | 4.14 | 4.27 | - | - |
 | | 144 | **4.34** | 4.44 | NAN | *4.43* | 4.44 | 4.57 | - | - |
 
+## Main Results on 1.4° ERA5
+Coming soon ...
+
 ## Citing PASSAT
 Arxiv version is being uploaded ...
 
