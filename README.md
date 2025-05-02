@@ -1,10 +1,6 @@
 # PASSAT_Physics-assisted_and_topology-informed_Weather_Prediction
 PASSAT is a novel Physics-ASSisted And Topology informed deep learning model for weather prediction. 
 
-# PASSAT for Global weather forecasting
-
-This folder contains the implementation of the PASSAT for global weather forecasting.
-
 ## Usage
 
 ### Install
