@@ -15,7 +15,7 @@ Navier-Stokes equation; (ii) the Earth-atmosphere interaction that is difficult 
 </div>
 
 ## Citing PASSAT
-Arxiv version is being uploaded
+Arxiv version is being uploaded ...
 
 ## Getting Started
 
