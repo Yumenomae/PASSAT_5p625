@@ -15,11 +15,14 @@ Navier-Stokes equation; (ii) the Earth-atmosphere interaction that is difficult 
 </div>
 
 ## Main Results on 5.625° ERA5
+For fair comparisons, we **unify the number of parameters** of all models to the same magnitude (around 1.15 million) and **train these baseline deep learning models from scratch** according to their open-source codes and [NVIDIA’s Modulus](https://github.com/NVIDIA/physicsnemo/tree/main) .
 
+The following table describes the comparisons between PASSAT and the other models in terms of RMSEs, over the test set. For each lead time and each weathervariable, the best model RMSE is in bold.
+  
 |  | **Lead Time (h)** | **PASSAT** | **GraphCast** | **ClimODE** | **Pangu** | **FourCastNet** | **SFNO** | **IFS T42** | **IFS T63** | 
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | 
-| **Physics-assisted** | - | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: | :x: | \\
-| **Topology-informed** | - | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: | 
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+| **Physics-assisted** | - | :heavy_check_mark: | :x: | :heavy_check_mark: | :x: | :x: | :x: | - | - |
+| **Topology-informed** | - | :heavy_check_mark: | :heavy_check_mark: | :x: | :x: | :x: | :x: | - | - |
 | **Parameters** (M) | - | 1.15 | 1.15 | 1.33 | 1.20 | 1.17 | 1.15 | - | - |
 |  |  |  |  | |  |  | |  |  | 
 | | 24 | 1.25 | ****1.21**** | 1.59 | 1.31 | 1.29 | 1.43 | - | - |
@@ -56,8 +59,6 @@ Navier-Stokes equation; (ii) the Earth-atmosphere interaction that is difficult 
 | | 96 | **3.55** | 3.64 | NAN | 3.70 | 3.70 | 3.83 | - | - |
 | | 120 | **4.01** | 4.10 | NAN | 4.13 | 4.14 | 4.27 | - | - |
 | | 144 | **4.34** | 4.44 | NAN | 4.43 | 4.44 | 4.57 | - | - |
-
-
 
 ## Citing PASSAT
 Arxiv version is being uploaded ...
