@@ -15,9 +15,9 @@ Navier-Stokes equation; (ii) the Earth-atmosphere interaction that is difficult 
 </div>
 
 ## Main Results on 5.625° ERA5
-For fair comparisons, we **unify the number of parameters** of all models to the same magnitude (around 1.15 million) and **train these baseline deep learning models from scratch** according to their open-source codes and [NVIDIA’s Modulus](https://github.com/NVIDIA/physicsnemo/tree/main) .
+For fair comparisons, we **unify the number of parameters, the input variables, as well as the training strategy** of all models and **train these baseline deep learning models from scratch** according to their open-source codes and [NVIDIA’s Modulus](https://github.com/NVIDIA/physicsnemo/tree/main).
 
-The following table describes the comparisons between PASSAT and the other models in terms of RMSEs, over the test set. For each lead time and each weathervariable, the best model RMSE is in bold.
+The following table describes the comparisons between PASSAT and the other models in terms of RMSEs, over the test set. For each lead time and each weather variable, the best model RMSE is in bold.
   
 |  | **Lead Time (h)** | **PASSAT** | **GraphCast** | **ClimODE** | **Pangu** | **FourCastNet** | **SFNO** | **IFS T42** | **IFS T63** | 
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
