@@ -12,7 +12,7 @@ Navier-Stokes equation; (ii) the Earth-atmosphere interaction that is difficult 
 
 PASSAT attributes the weather evolution to the analytical advection process and the complex Earth-atmo- sphere interaction. In the advection process, the evolution of weather variables is driven by the evolution of their velocity fields, and the two are respectively described by the advection equation and the Navier-Stokes equation.
 
-![image](figures/profor.jpg){:height="50%" width="50%"}
+![image](figures/profor.jpg)
 
 ## Usage
 
