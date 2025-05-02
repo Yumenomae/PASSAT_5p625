@@ -1,4 +1,4 @@
-# PASSAT: Physics-assisted and topology-informed Weather Prediction
+# PASSAT
 This repo is the official implementation of "Physics-Assisted and Topology-Informed Deep Learning for Weather Prediction".
 
 ## Updates
