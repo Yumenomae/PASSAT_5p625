@@ -64,7 +64,15 @@ The following table describes the comparisons between PASSAT and the other model
 Coming soon ...
 
 ## Citing PASSAT
-Arxiv version is being uploaded ...
+```
+@misc{zheng2025physicsassistedtopologyinformeddeeplearning,
+      title={Physics-Assisted and Topology-Informed Deep Learning for Weather Prediction}, 
+      author={Jiaqi Zheng and Qing Ling and Yerong Feng},
+      year={2025},
+      eprint={2505.04918},
+      archivePrefix={arXiv}
+}
+```
 
 ## Getting Started
 
